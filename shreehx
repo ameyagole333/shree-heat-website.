@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shree Heat Exchangers</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; }
+    header, footer { background: #004d66; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .container { padding: 40px 20px; max-width: 1000px; margin: auto; background: white; }
+    h2 { color: #004d66; }
+    .product, .contact-info { margin-top: 30px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+    form button { padding: 10px 20px; background: #004d66; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shree Heat Exchangers</h1>
+  <p>Fin-Tube Condensers, Evaporators & Chilled Water Coils</p>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+      <h3>Air-Cooled Condensers</h3>
+      <p>Copper tube with aluminum fin designs (3/8" or 1/2"), optimized for OEM refrigeration and HVAC systems. Available in L and C configurations.</p>
+    </div>
+    <div class="product">
+      <h3>Evaporator Coils</h3>
+      <p>High-efficiency coils for cold rooms and process cooling, with brazed joints and anti-corrosion treatment.</p>
+    </div>
+    <div class="product">
+      <h3>Chilled Water Coils</h3>
+      <p>Used in air handling systems with chilled water applications. Fin spacing from 5–12 FPI, available in multiple circuiting formats.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Established in 2007, Shree Heat Exchangers is based in Pune and Karad with a focus on quality fin-tube heat exchanger products for the OEM and industrial sectors. We support custom coil designs with fast turnaround and high-pressure testing.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>Address:</strong> Gala No. 38, Chandrasakha Warehouse, Opp. Ashok Leyland, Ambegaon Budruk, Pune - 411046</p>
+      <p><strong>Manager:</strong> Ms. Ameya Gole</p>
+      <p><strong>Email:</strong> <a href="mailto:shreeheatex@gmail.com">shreeheatex@gmail.com</a></p>
+    </div>
+
+    <form>
+      <h3>Request a Quote</h3>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Describe your coil requirement" rows="5" required></textarea>
+      <button type="submit">Send Enquiry</button>
+    </form>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Shree Heat Exchangers | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
